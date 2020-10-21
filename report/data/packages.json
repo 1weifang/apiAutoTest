@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases.ipc.common.login_test",
+    "children" : [ {
+      "name" : "test_login[5481349Aa-115930@hyhpzengweifang.com.cn]",
+      "uid" : "9112fe20c717aa37",
+      "parentUid" : "86ae18e5d69cc5d634e78426297bddf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603251581202,
+        "stop" : 1603251581320,
+        "duration" : 118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'115930@hyhpzengweifang.com.cn'", "'5481349Aa'" ]
+    }, {
+      "name" : "test_login[5481349Aa-asafasfasf]",
+      "uid" : "c85930d138c13cbe",
+      "parentUid" : "86ae18e5d69cc5d634e78426297bddf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603251581337,
+        "stop" : 1603251581448,
+        "duration" : 111
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'asafasfasf'", "'5481349Aa'" ]
+    }, {
+      "name" : "test_login[5481349Aa-]",
+      "uid" : "680aa5d4cb0b2093",
+      "parentUid" : "86ae18e5d69cc5d634e78426297bddf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603251581458,
+        "stop" : 1603251581562,
+        "duration" : 104
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "''", "'5481349Aa'" ]
+    }, {
+      "name" : "test_login[-115930@hyhpzengweifang.com.cn]",
+      "uid" : "19ab903857d75d3e",
+      "parentUid" : "86ae18e5d69cc5d634e78426297bddf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603251581572,
+        "stop" : 1603251581679,
+        "duration" : 107
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'115930@hyhpzengweifang.com.cn'", "''" ]
+    }, {
+      "name" : "test_login[-asafasfasf]",
+      "uid" : "2b372eaba02d9d35",
+      "parentUid" : "86ae18e5d69cc5d634e78426297bddf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603251581713,
+        "stop" : 1603251581827,
+        "duration" : 114
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'asafasfasf'", "''" ]
+    }, {
+      "name" : "test_login[-]",
+      "uid" : "53ba241a130972c5",
+      "parentUid" : "86ae18e5d69cc5d634e78426297bddf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603251581837,
+        "stop" : 1603251581929,
+        "duration" : 92
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "''", "''" ]
+    } ],
+    "uid" : "testcases.ipc.common.login_test"
+  } ]
+}

@@ -1,0 +1,61 @@
+[ {
+  "uid" : "19ab903857d75d3e",
+  "name" : "test_login[-115930@hyhpzengweifang.com.cn]",
+  "time" : {
+    "start" : 1603251581572,
+    "stop" : 1603251581679,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c85930d138c13cbe",
+  "name" : "test_login[5481349Aa-asafasfasf]",
+  "time" : {
+    "start" : 1603251581337,
+    "stop" : 1603251581448,
+    "duration" : 111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b372eaba02d9d35",
+  "name" : "test_login[-asafasfasf]",
+  "time" : {
+    "start" : 1603251581713,
+    "stop" : 1603251581827,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "680aa5d4cb0b2093",
+  "name" : "test_login[5481349Aa-]",
+  "time" : {
+    "start" : 1603251581458,
+    "stop" : 1603251581562,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9112fe20c717aa37",
+  "name" : "test_login[5481349Aa-115930@hyhpzengweifang.com.cn]",
+  "time" : {
+    "start" : 1603251581202,
+    "stop" : 1603251581320,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53ba241a130972c5",
+  "name" : "test_login[-]",
+  "time" : {
+    "start" : 1603251581837,
+    "stop" : 1603251581929,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

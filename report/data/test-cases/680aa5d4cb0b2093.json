@@ -1,0 +1,84 @@
+{
+  "uid" : "680aa5d4cb0b2093",
+  "name" : "test_login[5481349Aa-]",
+  "fullName" : "testcases.ipc.common.login_test.Test_Login#test_login",
+  "historyId" : "a175a41c3d309c5056ce6bde0f5bea66",
+  "time" : {
+    "start" : 1603251581458,
+    "stop" : 1603251581562,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "279f897022eb85dc",
+      "name" : "stderr",
+      "source" : "279f897022eb85dc.txt",
+      "type" : "text/plain",
+      "size" : 867
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录功能"
+  }, {
+    "name" : "story",
+    "value" : "登录功能测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.ipc.common"
+  }, {
+    "name" : "suite",
+    "value" : "login_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login"
+  }, {
+    "name" : "host",
+    "value" : "DZ-000406"
+  }, {
+    "name" : "thread",
+    "value" : "14836-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.ipc.common.login_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "''"
+  }, {
+    "name" : "password",
+    "value" : "'5481349Aa'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "680aa5d4cb0b2093.json",
+  "parameterValues" : [ "''", "'5481349Aa'" ]
+}
