@@ -20,8 +20,7 @@ class Test_Login:
     def setup(self):
         self.login = Login()
 
-
-    @allure.story("登录功能测试")#story定义用户场景
+    @allure.story("登录功能参数化测试")#story定义用户场景
     @pytest.mark.parametrize("email",["115930@hyhpzengweifang.com.cn","asafasfasf",""])
     @pytest.mark.parametrize("password", ["5481349Aa",""])
     def test_login(self,email,password):
