@@ -8,7 +8,7 @@
 import sys,os
 BASE_DIR=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
-from common.baseUtil import baseUtils
+from common.baseutil import BaseUtil
 from interfaces.common.send_post_requests import SendPostRequests
 from config.ipc.common.common_urls import REGISTER_AUTH_URL
 from config.ipc.common.common_urls import REGISTER_EMAIL_VERIFY
@@ -19,16 +19,16 @@ class Register(SendPostRequests):
 
     def __init__(self):
         super().__init__()
-        self.base=baseUtils()
+        self.base=BaseUtil()
 
 
-    def get_login_auth_url(self):
+    def get_login_auth_url(self,mi_base_url):
         '''
         定义鉴权登录的URL
         :param timestamp:
         :return:
         '''
-        url = "https://mi-api-test.sunvalleycloud.com" + REGISTER_AUTH_URL + "?&timeStamp=%s&lang=en" %(self.base.getTimeStamp())
+        url = mi_base_url + REGISTER_AUTH_URL + "?&timeStamp=%s&lang=en" %(self.base.getTimeStamp())
         return url
 
 

@@ -6,6 +6,7 @@
 @file:msg_ceneter.py
 @time:2020/10/19
 """
+REPORT_TOKEN_URL="/ipc/msg/push/report-token"
 PAGE_URL="/ipc/msg/notice/v4/page"
 CONDITION_URL="/ipc/msg/notice/v4/condition"
 COUNT_URL="/ipc/msg/notice/v3/count"

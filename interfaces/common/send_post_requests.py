@@ -23,8 +23,14 @@ class SendPostRequests:
         logger.info("请求的URL为%s" %url)
         logger.info("请求的body为%s" %body)
         res = requests.post(url, data=json.dumps(body), headers=headers, timeout=30)
-        logger.info("返回的response为%s" %res.json())
-        return res.json()
+        if res.status_code == 200:
+            logger.info("接口请求成功")
+            logger.info("返回的response为%s" %res.json())
+            return res.json()
+        else:
+            logger.error("接口请求失败！")
+            logger.info("失败的原因为:%s" %res.json())
+
 
 if __name__ == '__main__':
     pass

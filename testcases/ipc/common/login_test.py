@@ -7,25 +7,29 @@
 @time:2020/10/21
 """
 import sys,os
+
+
 BASE_DIR=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
-import pytest
+import pytest,requests
 import allure
 from interfaces.ipc.common.login import Login
 
 
 @allure.feature("登录功能")#feature定义功能
-class Test_Login:
+class Test_Login():
+
 
     def setup(self):
         self.login = Login()
+
 
     @allure.story("登录功能参数化测试")#story定义用户场景
     @pytest.mark.parametrize("email",["115930@hyhpzengweifang.com.cn","asafasfasf",""])
     @pytest.mark.parametrize("password", ["5481349Aa",""])
     def test_login(self,email,password):
-        login_url =  self.login.get_login_url()
-        login_data =  self.login.get_login_data(email,password)
+        login_url =  self.login.get_mi_login_url()
+        login_data =  self.login.get_mi_login_Android_email_password_data(email,password)
         self.login.send_post_requests(login_url,login_data)
 
     def teardown(self):

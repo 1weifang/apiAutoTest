@@ -13,3 +13,6 @@ REGISTER_EMAIL_PASSWORD="/users/email-password-register"
 
 
 LOGIN_URL = "/oauth/login"
+REFRESH_TOKEN_URL = "/oauth/refresh-token"
+
+

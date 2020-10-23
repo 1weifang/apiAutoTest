@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 """
 @author:durant.zeng
+@Description:摄像头模块相关接口
 @file:camera.py
 @time:2020/09/29
 """
@@ -26,7 +27,7 @@ from config.ipc.mi.camera import LIST_SN_STATUS
 
 
 
-class camera(SendPostRequests):
+class Camera(SendPostRequests):
 
     def __init__(self):
         super().__init__()
@@ -209,7 +210,7 @@ class camera(SendPostRequests):
         :param access_token:
         :return:
         '''
-        url = "https://mi-api-test.sunvalleycloud.com" + LIST_FOR_MGT_URL + "?&access_token=%s&timeStamp=%s&lang=en" %(access_token,self.base.getTimeStamp())
+        url = "https://mi-api-test.sunvalleycloud.com" + LIST_FOR_MY_DEVICES_URL + "?&access_token=%s&timeStamp=%s&lang=en" %(access_token,self.base.getTimeStamp())
         return url
 
     def get_list_for_my_devices_data(self):
